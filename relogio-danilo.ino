@@ -127,7 +127,7 @@ case 9:
       digitalWrite(pinoA,HIGH);
       digitalWrite(pinoB,HIGH);
       digitalWrite(pinoC,HIGH);
-      digitalWrite(pinoD,LOW);
+      digitalWrite(pinoD,HIGH);
       digitalWrite(pinoE,LOW);
       digitalWrite(pinoF,HIGH);
       digitalWrite(pinoG,HIGH);
