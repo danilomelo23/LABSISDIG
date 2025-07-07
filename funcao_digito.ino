@@ -1,3 +1,21 @@
+const int Seg_A = 7;
+const int Seg_B = 6;
+const int Seg_C = 5;
+const int Seg_D = 4;
+const int Seg_E = 3;
+const int Seg_F = 2;
+const int Seg_G = 8;
+
+void setup() {
+  pinMode(Seg_A, OUTPUT);
+  pinMode(Seg_B, OUTPUT);
+  pinMode(Seg_C, OUTPUT);
+  pinMode(Seg_D, OUTPUT);
+  pinMode(Seg_E, OUTPUT);
+  pinMode(Seg_F, OUTPUT);
+  pinMode(Seg_G, OUTPUT);
+}
+
 void digito(int num) {
   switch (num) {
     case 0:
@@ -92,3 +110,10 @@ void digito(int num) {
       break;
     }
 } 
+
+
+// Loop principal
+void loop() {
+
+  
+}
