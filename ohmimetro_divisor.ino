@@ -17,10 +17,10 @@ void loop() {
         VA5_atu = VA5;
     }
     Serial.print("VA5_atu=");
-    Serial.println(VA5_atu);
+    Serial.print(VA5_atu);
     float V2 = (VA5_atu * V1) / 1024.0;
     float R2 = ( V2 * R1) / (V1 - V2);
-    Serial.print("R2=");
+    Serial.print("   R2=");
     Serial.println(R2);
 }
 
